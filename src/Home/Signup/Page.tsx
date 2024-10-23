@@ -51,6 +51,7 @@ const Signup = () => {
         </div>
         <p className="w-full border-b my-8 border-spotify-gray"></p>
         <Footer />
+        <p>Richard</p>
       </section>
     </section>
   );
