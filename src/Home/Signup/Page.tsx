@@ -3,7 +3,7 @@ import Button from "../../component/Button";
 import { FcGoogle } from "react-icons/fc";
 import SocialButton from "../component/socialButton";
 import Header from "../component/header";
-import Footer from "./footer";
+import Footer from "./component/footer";
 const socialIcons = [
   { icon: <FcGoogle />, text: "Sign up with Google" },
   {
@@ -51,7 +51,6 @@ const Signup = () => {
         </div>
         <p className="w-full border-b my-8 border-spotify-gray"></p>
         <Footer />
-        <p>Richard</p>
       </section>
     </section>
   );

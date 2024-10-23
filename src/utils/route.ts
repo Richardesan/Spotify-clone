@@ -1,4 +1,5 @@
 export const AppRoutes = {
     home: "/",
-    register: "/register"    
+    register: "/register" ,
+    login: "/login"   
   };
