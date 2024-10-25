@@ -56,7 +56,7 @@ const Sidebar = () => {
         <ul className="text-[11px] flex flex-wrap gap-4 w-[80%] items-center">
           <li>Legal</li>
           <li>Safety & Privacy Center</li>
-          <li>Privacy Policy</li>
+          <li className="underline cursor-pointer">Privacy Policy</li>
           <li>Cookies</li>
           <li>About ads</li>
           <li>Accessibility</li>
