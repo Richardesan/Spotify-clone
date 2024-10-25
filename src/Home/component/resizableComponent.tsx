@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Sidebar from "./sidebar";
 
 const ResizableSidebar = () => {
-  const [width, setWidth] = useState(250); // Initial width in pixels
+  const [width, setWidth] = useState(330); // Initial width in pixels
   const [isResizing, setIsResizing] = useState(false);
 
   const handleMouseDown = () => {
@@ -20,10 +20,10 @@ const ResizableSidebar = () => {
         const newWidth = e.clientX; // Update width based on mouse position
   
         // Set the width within the min and max constraints
-        if (newWidth >= 250 && newWidth <= 450) { // Minimum width of 150px and maximum of 400px
+        if (newWidth >= 330 && newWidth <= 450) { // Minimum width of 150px and maximum of 400px
           setWidth(newWidth);
-        } else if (newWidth < 250) {
-          setWidth(250); // Set to minimum width if below 150px
+        } else if (newWidth < 330) {
+          setWidth(330); // Set to minimum width if below 150px
         } else if (newWidth > 450) {
           setWidth(450); // Set to maximum width if above 400px
         }
@@ -53,7 +53,7 @@ const ResizableSidebar = () => {
     >
     
       {/* Sidebar content here */}
-      <div style={{ padding: "10px", color: "white" }}>
+      <div style={{  color: "white" }}>
         <Sidebar />
       </div>
       

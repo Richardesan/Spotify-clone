@@ -2,7 +2,6 @@ import { Outlet } from "react-router-dom";
 import Navbar from "../component/navbar";
 import Footer from "./component/footer";
 import ResizableSidebar from "./component/resizableComponent";
-import Sidebar from "./component/sidebar";
 const Home = () => {
   return (
     <div className="bg-black h-screen overflow-hidden">
