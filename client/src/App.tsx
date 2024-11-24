@@ -4,6 +4,7 @@ import { AppRoutes } from "./utils/route";
 import Login from "./Home/Login/Page";
 import Home from "./Home/page";
 import LandingPage from "./Home/LandingPage/Page";
+
 function Layout() {
   return (
     <Routes>
